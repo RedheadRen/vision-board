@@ -7,7 +7,6 @@ body {
     background-size: cover;
     font-family: 'Montserrat', sans-serif;
     height: 850px;
-    line-height: 10px;
     margin: auto;
     text-transform: uppercase;
     width: 1200px;
@@ -16,19 +15,20 @@ body {
 .block {
     box-sizing: border-box;
     float: left;
-    padding: 20px;
     width: 400px;
 }
 
 .large-block {
     height: 430px;
+    padding: 60px 30px 60px 30px;
 }
 
 .small-block {
     height: 210px;
+    padding: 30px 25px 30px 25px;
 }
 
-.center{
+.center {
     text-align: center;
 }
 
@@ -50,6 +50,7 @@ body {
 
 span {
     background: #fff44f;
+    line-height: 5px;
     padding: 5px 10px;
 }
 
@@ -57,20 +58,28 @@ span {
     color: #ffffff;
     font-family: 'Permanent Marker', cursive;
     font-size: 30px;
+    line-height: 12px;
 }
 
 #my-vision p {
     color: #ffffff;
     font-size: 30px;
     font-weight: bold;
+    line-height: 10px;
 }
 
 h1 {
     font-size: 38px;
+    line-height: 10px;
     margin: 0 0 30px 0;
     text-transform: none;
 }
- h3 {
-     font-size: 20px;
-     line-height: 15px;
+
+p {
+    font-size: 20px;
+    line-height: 5px;
  }
+
+br {
+    font-size: 10px;
+}
